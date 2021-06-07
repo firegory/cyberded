@@ -92,7 +92,7 @@ public class zombieII : MonoBehaviour
             rb.velocity = new Vector2(0, 0);
         }
     }
-    private bool canWalk()
+    public bool canWalk()
     {
         bool can;
         if ((Physics2D.Linecast(transform.position, groundcheckL.position, 1 << LayerMask.NameToLayer("Ground")) || Physics2D.Linecast(transform.position, groundcheckL.position, 1 << LayerMask.NameToLayer("flyingGround"))) && (Physics2D.Linecast(transform.position, groundcheckR.position, 1 << LayerMask.NameToLayer("Ground")) || Physics2D.Linecast(transform.position, groundcheckR.position, 1 << LayerMask.NameToLayer("flyingGround"))))

@@ -41,6 +41,7 @@ public class reactivething : MonoBehaviour
     {
         if (alive)
         {
+            alive = false;
             yield return new WaitForSeconds(0.1f);
             Destroy(this.gameObject);
         }

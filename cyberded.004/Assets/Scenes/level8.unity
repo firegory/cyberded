@@ -2730,7 +2730,7 @@ MonoBehaviour:
   scen: level6
   outoffScenes: {fileID: 0}
   outoff: {fileID: 0}
-  posit: {x: 91.28, y: 16.7, z: -2}
+  posit: {x: 91.28, y: 10.85, z: -2}
 --- !u!61 &2005059320
 BoxCollider2D:
   m_ObjectHideFlags: 0
